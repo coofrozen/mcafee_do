@@ -42,8 +42,9 @@ def thr_vec():
         if i != 2:
             query += ","
     query += ")"
-
+    print("done")
     print(query)
     return query
+
 
 
